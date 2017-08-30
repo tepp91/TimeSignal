@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="External\Ogg\bitwise.c" />
+    <ClCompile Include="External\Ogg\framing.c" />
+    <ClCompile Include="External\Vorbis\analysis.c" />
+    <ClCompile Include="External\Vorbis\barkmel.c" />
+    <ClCompile Include="External\Vorbis\bitrate.c" />
+    <ClCompile Include="External\Vorbis\block.c" />
+    <ClCompile Include="External\Vorbis\codebook.c" />
+    <ClCompile Include="External\Vorbis\envelope.c" />
+    <ClCompile Include="External\Vorbis\floor0.c" />
+    <ClCompile Include="External\Vorbis\floor1.c" />
+    <ClCompile Include="External\Vorbis\info.c" />
+    <ClCompile Include="External\Vorbis\lookup.c" />
+    <ClCompile Include="External\Vorbis\lpc.c" />
+    <ClCompile Include="External\Vorbis\lsp.c" />
+    <ClCompile Include="External\Vorbis\mapping0.c" />
+    <ClCompile Include="External\Vorbis\mdct.c" />
+    <ClCompile Include="External\Vorbis\psy.c" />
+    <ClCompile Include="External\Vorbis\registry.c" />
+    <ClCompile Include="External\Vorbis\res0.c" />
+    <ClCompile Include="External\Vorbis\sharedbook.c" />
+    <ClCompile Include="External\Vorbis\smallft.c" />
+    <ClCompile Include="External\Vorbis\synthesis.c" />
+    <ClCompile Include="External\Vorbis\vorbisenc.c" />
+    <ClCompile Include="External\Vorbis\vorbisfile.c" />
+    <ClCompile Include="External\Vorbis\window.c" />
+    <ClCompile Include="Source\OggDecoder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="External\Ogg\ogg.h" />
+    <ClInclude Include="External\Ogg\os_types.h" />
+    <ClInclude Include="External\Vorbis\backends.h" />
+    <ClInclude Include="External\Vorbis\bitrate.h" />
+    <ClInclude Include="External\Vorbis\books\coupled\res_books_51.h" />
+    <ClInclude Include="External\Vorbis\books\coupled\res_books_stereo.h" />
+    <ClInclude Include="External\Vorbis\books\floor\floor_books.h" />
+    <ClInclude Include="External\Vorbis\books\uncoupled\res_books_uncoupled.h" />
+    <ClInclude Include="External\Vorbis\codebook.h" />
+    <ClInclude Include="External\Vorbis\codec.h" />
+    <ClInclude Include="External\Vorbis\codec_internal.h" />
+    <ClInclude Include="External\Vorbis\envelope.h" />
+    <ClInclude Include="External\Vorbis\highlevel.h" />
+    <ClInclude Include="External\Vorbis\lookup.h" />
+    <ClInclude Include="External\Vorbis\lookup_data.h" />
+    <ClInclude Include="External\Vorbis\lpc.h" />
+    <ClInclude Include="External\Vorbis\lsp.h" />
+    <ClInclude Include="External\Vorbis\masking.h" />
+    <ClInclude Include="External\Vorbis\mdct.h" />
+    <ClInclude Include="External\Vorbis\misc.h" />
+    <ClInclude Include="External\Vorbis\modes\floor_all.h" />
+    <ClInclude Include="External\Vorbis\modes\psych_11.h" />
+    <ClInclude Include="External\Vorbis\modes\psych_16.h" />
+    <ClInclude Include="External\Vorbis\modes\psych_44.h" />
+    <ClInclude Include="External\Vorbis\modes\psych_8.h" />
+    <ClInclude Include="External\Vorbis\modes\residue_16.h" />
+    <ClInclude Include="External\Vorbis\modes\residue_44.h" />
+    <ClInclude Include="External\Vorbis\modes\residue_44p51.h" />
+    <ClInclude Include="External\Vorbis\modes\residue_44u.h" />
+    <ClInclude Include="External\Vorbis\modes\residue_8.h" />
+    <ClInclude Include="External\Vorbis\modes\setup_11.h" />
+    <ClInclude Include="External\Vorbis\modes\setup_16.h" />
+    <ClInclude Include="External\Vorbis\modes\setup_22.h" />
+    <ClInclude Include="External\Vorbis\modes\setup_32.h" />
+    <ClInclude Include="External\Vorbis\modes\setup_44.h" />
+    <ClInclude Include="External\Vorbis\modes\setup_44p51.h" />
+    <ClInclude Include="External\Vorbis\modes\setup_44u.h" />
+    <ClInclude Include="External\Vorbis\modes\setup_8.h" />
+    <ClInclude Include="External\Vorbis\modes\setup_X.h" />
+    <ClInclude Include="External\Vorbis\os.h" />
+    <ClInclude Include="External\Vorbis\psy.h" />
+    <ClInclude Include="External\Vorbis\registry.h" />
+    <ClInclude Include="External\Vorbis\scales.h" />
+    <ClInclude Include="External\Vorbis\smallft.h" />
+    <ClInclude Include="External\Vorbis\vorbisenc.h" />
+    <ClInclude Include="External\Vorbis\vorbisfile.h" />
+    <ClInclude Include="External\Vorbis\window.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{54EA7EC3-BB8A-4AD9-8834-54FB36FA453C}</ProjectGuid>
+    <RootNamespace>OggDecoder</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)TimeSignal\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>_Tmp\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)TimeSignal\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>_Tmp\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)TimeSignal\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>_Tmp\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)TimeSignal\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>_Tmp\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)\External</AdditionalIncludeDirectories>
+      <TreatSpecificWarningsAsErrors>
+      </TreatSpecificWarningsAsErrors>
+      <DisableSpecificWarnings>4244;4267;4305;4456;4457;4706;4819;4996</DisableSpecificWarnings>
+    </ClCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)\External</AdditionalIncludeDirectories>
+      <TreatSpecificWarningsAsErrors>
+      </TreatSpecificWarningsAsErrors>
+      <DisableSpecificWarnings>4244;4267;4305;4456;4457;4706;4819;4996</DisableSpecificWarnings>
+    </ClCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)\External</AdditionalIncludeDirectories>
+      <TreatSpecificWarningsAsErrors>
+      </TreatSpecificWarningsAsErrors>
+      <DisableSpecificWarnings>4244;4267;4305;4456;4457;4706;4819;4996</DisableSpecificWarnings>
+      <DebugInformationFormat>None</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)\External</AdditionalIncludeDirectories>
+      <TreatSpecificWarningsAsErrors>
+      </TreatSpecificWarningsAsErrors>
+      <DisableSpecificWarnings>4244;4267;4305;4456;4457;4706;4819;4996</DisableSpecificWarnings>
+      <DebugInformationFormat>None</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{456a5f83-8f8a-49fc-9ed8-0c13c4285a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{9459de21-d1c6-41fd-8139-00b1073a9676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Ogg">
+      <UniqueIdentifier>{2560902f-dbaa-4df5-842d-2e549a050589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Vorbis">
+      <UniqueIdentifier>{b15dfe94-cd1d-429c-b4d3-40da760714ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="External\Ogg\framing.c">
+      <Filter>External\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Ogg\bitwise.c">
+      <Filter>External\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\barkmel.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\bitrate.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\block.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\codebook.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\envelope.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\floor0.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\floor1.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\info.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\lookup.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\lpc.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\lsp.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\mapping0.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\mdct.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\psy.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\registry.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\res0.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\sharedbook.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\smallft.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\synthesis.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\vorbisenc.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\vorbisfile.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\window.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Vorbis\analysis.c">
+      <Filter>External\Vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OggDecoder.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="External\Ogg\ogg.h">
+      <Filter>External\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Ogg\os_types.h">
+      <Filter>External\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\backends.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\bitrate.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\codebook.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\codec.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\codec_internal.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\envelope.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\highlevel.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\lookup.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\lookup_data.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\lpc.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\lsp.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\masking.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\mdct.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\misc.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\os.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\psy.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\registry.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\scales.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\smallft.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\vorbisenc.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\vorbisfile.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\window.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\books\coupled\res_books_51.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\books\coupled\res_books_stereo.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\books\floor\floor_books.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\books\uncoupled\res_books_uncoupled.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\floor_all.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\psych_11.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\psych_16.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\psych_44.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\psych_8.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\residue_16.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\residue_44.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\residue_44p51.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\residue_44u.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\residue_8.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\setup_11.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\setup_16.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\setup_22.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\setup_32.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\setup_44.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\setup_44p51.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\setup_44u.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\setup_8.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Vorbis\modes\setup_X.h">
+      <Filter>External\Vorbis</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

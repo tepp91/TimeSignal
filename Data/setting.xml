@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Setting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Frequency>Minutes30</Frequency>
+  <VoiceNotification>true</VoiceNotification>
+  <GuiNotification>true</GuiNotification>
+  <TwelveHourClock>false</TwelveHourClock>
+  <TimeToClose>5</TimeToClose>
+  <UserTimeList>
+    <UserTime>
+      <Hours>1</Hours>
+      <Minutes>33</Minutes>
+    </UserTime>
+  </UserTimeList>
+</Setting>

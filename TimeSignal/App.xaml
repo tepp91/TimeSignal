@@ -1,0 +1,10 @@
+﻿<Application x:Class="TimeSignal.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:prop="clr-namespace:TimeSignal.Properties"
+             Startup="Application_Startup"
+			 ShutdownMode="OnExplicitShutdown">
+	<Application.Resources>
+		<prop:Resources x:Key="Resources"/>
+	</Application.Resources>
+</Application>
